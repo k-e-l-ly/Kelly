@@ -1,6 +1,6 @@
 <?php
 	// load up global things
-	include_once 'autoloader.php';
+	include_once 'conn.php';
 
 	if ( !isAdmin() ) {
 		header( 'location: index.php' );
